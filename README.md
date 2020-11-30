@@ -1,6 +1,6 @@
 # PETscans
 The is the source code for the quality control check for PiB PET scans at the Waisman center. 
-The quality control check consisted of three main parts: 1. successful conversion of dicom to nifti while saving dicom metadata information that was lost into a nicely printed html file.`wc_dicom2nii.m` 2. Mainting spatial orientation of dicom image when viewed an image viewer such as Amide, `wc_dicom2origin.m`. 3. check for motion in dynamic PET series from a single study, `wc_motion_corr_4D.m`. 4. Defining normal movement from many PET studies, `wc_def_norm_movement.m`. 5. Sorting metadata produced by unique dicom series,`wc_dicom_petct_sorter4_0.m` (note this function is error prone.)
+The quality control check consisted of five parts: 1. successful conversion of dicom to nifti while saving dicom metadata information that was lost into a nicely printed html file.`wc_dicom2nii.m` 2. Mainting spatial orientation of dicom image when viewed an image viewer such as Amide, `wc_dicom2origin.m`. 3. check for motion in dynamic PET series from a single study, `wc_motion_corr_4D.m`. 4. Defining normal movement from many PET studies, `wc_def_norm_movement.m`. 5. Sorting metadata produced by unique dicom series,`wc_dicom_petct_sorter4_0.m` (note this function is error prone.)
 
 These quality checks are meant to flag possible errors that come from the massive throughput of PET data, not correct any errors in the files.
 
