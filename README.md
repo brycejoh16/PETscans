@@ -8,7 +8,7 @@ To run all of these quality metrics run `wc_master_qc.m` and specify flages in t
 A detailed description of functions is found in `manual1_1.pdf` and source code comments. 
 
 ## Manual 
-Read manual1_1.pdf for detailed descriptions of program function and hierarchy 
+Read `manual1_1.pdf` for detailed descriptions of program function and hierarchy 
 
 ## Environment
 
